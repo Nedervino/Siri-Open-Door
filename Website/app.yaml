@@ -1,0 +1,44 @@
+application: opendoor
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /images
+  static_dir: images
+
+- url: /
+  script: login.php
+  login: required
+
+- url: /main
+  script: login.php
+  login: required
+
+- url: /login.php
+  script: login.php
+  login: required
+
+- url: /opendoor.php
+  script: opendoor.php
+  login: required
+
+- url: /formhandler.php
+  script: formhandler.php
+  login: required
+
+- url: /DBConnection.php
+  script: DBConnection.php
+
+- url: /guestbook.php
+  script: guestbook.php
+
+- url: /sign
+  script: sign.php
+
+- url: /dashboard.php
+  script: dashboard.php
+  login: required
