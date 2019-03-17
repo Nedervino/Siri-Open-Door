@@ -13,4 +13,4 @@ The wifi-enabled [Photon microcontroller](https://store.particle.io/#photon) was
 For easy access from a laptop whenever my phone isn't around, the project also includes a small password-enabled web app for unlocking, which was deployed on Google App Engine. Visitors needed to be logged in on one of the three Google Accounts belonging to the house residents to be able to use the app.
 
 ### Demo
-A short recording of both the project in action and our genuine excitement about not having to run downstairs anymore for every guest or package delivery can be found [here](https://www.facebook.com/tim.nederveen.1/videos/10153714596014339/)
+A short recording of both the project in action and our genuine excitement about not having to run downstairs anymore for every guest or package delivery can be found [here](https://www.facebook.com/t.nederveen/videos/vb.575399338/10153714596014339)
